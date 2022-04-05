@@ -1,12 +1,14 @@
-package com.pazbear.study.springboot.web.domain.posts;
+package com.pazbear.study.springboot.domain.posts;
 
 import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+@Getter
+@NoArgsConstructor
+@Entity
 public class Posts {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

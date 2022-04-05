@@ -1,4 +1,4 @@
-package com.pazbear.study.springboot.web.domain.posts;
+package com.pazbear.study.springboot.domain.posts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
